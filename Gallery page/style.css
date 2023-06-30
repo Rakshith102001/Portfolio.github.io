@@ -1,0 +1,69 @@
+#title {
+background: rgba(255, 255, 255, 0.25);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+backdrop-filter: blur(1px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+body{
+	margin-left:25px;
+	margin-bottom:2rem;
+	background-image: linear-gradient(to bottom right, #154360, #145A32);
+}
+
+h1{
+	color:#D4AC0D; 
+	font-family:Tahoma; 
+	font-size:50px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-top:45px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.railimg1 {
+	border-radius: 20px;
+	
+}
+
+.railbtn {
+	padding-top: 45px;
+	font-size:30px;
+	-moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: #000;
+    padding: 0.2em 0.4em;
+	background: rgba(255, 255, 255, 0.32);
+	border-radius: 10px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(0px);
+	border: 1px solid rgba(255, 255, 255, 0.75);
+	position:27px;
+}
+
+a{
+	padding-top:2rem;
+}
+
+img{
+	width: 80%; /* takes the 100 % width of its container (.box div)*/
+  height: 60%;
+
+}

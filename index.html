@@ -1,0 +1,360 @@
+<html>
+	<head>
+	<link rel="stylesheet" href="indexcss.css">
+	<title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+	<link rel="stylesheet" as="font" onload="this.onload=null;this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Poppins|Open+Sans:400italic,700italic,400,700">
+	</head>
+	<body>
+	
+	<script>
+      /* Storing user's device details in a variable*/
+      let details = navigator.userAgent;
+      
+      /* Creating a regular expression
+      containing some mobile devices keywords
+      to search it in details string*/
+      let regexp = /android|iphone|kindle|ipad/i;
+      
+      /* Using test() method to search regexp in details
+      it returns boolean value*/
+      let isMobileDevice = regexp.test(details);
+      
+      if (isMobileDevice) {
+		 alert("Error \n Please use Either PC ors witch your Browser to Desktop mode to view this webpage");
+      } else {
+      }
+   </script>
+	
+	
+	
+	<section class='title'>
+	<h1><span style="color:lightgray;"> < </span> RAKSHITH S NADIGER <span style="color:lightgray;">  &nbsp;/> </span>
+	<div class="square1"><a href='#contact'> CONTACT ME!</a></div>
+	<a href='#cert'> Certificates</a>
+	<a href='#skills'> Skills</a>
+	<a href='#proj'> Project</a>
+	<a href='#edu'>Education</a>
+	</section>
+	<div class='grid'>
+	<div class='intro'>
+	<p style='font-size:40px'>Hi, I'm <span style="color:F7EC09">Rakshith</span><br/> a Postgraduate Student</p>
+	<p>I'm interested in leaning and building Machine Learning and Image Processing projects</p>
+	
+	<p>
+	<div class="square2"><a href='https://github.com/Rakshith102001'><img src='icons/git.jpg' width='25px' height='25px'/></a></div> &nbsp
+	<div class="square2"><a href='https://www.linkedin.com/in/rakshith-s-nadiger-190b52209/'><img src='icons/linkedin.png' width='25px' height='25px'/></a></div> &nbsp;
+	<div class="square2"><a href='resume.pdf'><img src='icons/resume.jpg' width='25px' height='25px'/></a></div>
+	<div class="square2"><a href='Gallery page/gallery.html'><img src='icons/gallery.jpg' width='25px' height='25px'/></a></div>
+	<div class="square2"><a href='https://medium.com/@rakshithsn2001'><img src='icons/medium.png' width='25px' height='25px'/></a></div>
+	</p>
+	</div>
+	<div style='padding:8rem; position:relative;right:-5px;'>
+	<div class="square"><img class='mine' src='icons/Me3.png' width='290px' height='350px'/></div>
+	</div>
+	</div>
+	<hr style='color:#BDC3C7 ;'>
+	
+	
+	 <h2 id='edu' class="educationsec">Education</h2>
+     <ul class="timeline-items">
+          <li class="timeline-item ptf-card">
+            <h3>
+              Integrated MCA
+            </h3>
+            <p class="date-interval">
+              <time datetime="2023-04">JULY 2024</time>
+            </p>
+            <p class="location">CGPA : <span style='color:#48B65C;font-weight:bold;'> 8.7 </span><br/> Amrita Vishwa Vidyapeetham, Mysore, India</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>Pre-University</h3>
+            <p class="date-interval">
+              <time datetime="2018-05">MAR 2019</time>
+            </p>
+            <p class="location">Percentage : <span style='color:#48B65C;font-weight:bold;'> 85.6% </span><br/>Jnanodaya PU College, Mysore, India</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>SSLC (10th Grade) </h3>
+            <p class="date-interval">
+              <time datetime="2016-05">MAY 2017</time>
+            </p>
+            <p class="location">Percentage : <span style='color:#48B65C;font-weight:bold;'> 85% </span><br/>Pragathi Vidya Kendra, Mysore, India</p>
+          </li>
+        </ul>
+	<hr style='color:#BDC3C7 ;'>
+	
+	<h2 id='proj' class="educationsec">Projects</h2>
+     <ul class="timeline-items">
+          <li class="timeline-item ptf-card">
+            <h3>
+             Application of Image Enhancing Methods To The Covid-19 Lung's Image Dataset
+            </h3>
+            <p class="date-interval">
+              <time datetime="2023-04">2023</time>
+            </p>
+            <p class="desc">Tech Stack: Python, Computer Vision | Team size-2 <br/>
+We used Python programming language along with the OpenCV library to analyze a dataset of Covid-19 Lung Images, focusing on different techniques for enhancing the images. Our approach involved applying noise removal, smoothing, and sharpening techniques to the images in order to improve their quality and clarity.</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>Carbon Emission prediction using Linear Regression </h3>
+            <p class="date-interval">
+              <time datetime="2018-05">2023</time>
+            </p>
+            <p class="desc">Tech Stack: Python, Pandas | Individual Project <br/>
+I applied the widely used machine learning technique called Linear Regression to analyze a dataset on vehicle carbon emissions, which I obtained from Kaggle. Through this approach, my model successfully attained an accuracy rate of 80%.</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>Prediction of Green house gas Emission using Hybrid
+Approach </h3>
+            <p class="date-interval">
+              <time datetime="2016-05">2023</time>
+            </p>
+            <p class="desc">Tech Stack: Python, Pandas | Team size-4<br/>
+We devised a hybrid approach by combining Linear Regression and Logistic Regression techniques to predict Greenhouse Gas emissions using the SDG-13 Dataset. Our method yielded a commendable accuracy rate of 90.21%</p>
+          </li>
+		  <li class="timeline-item ptf-card">
+            <h3>
+              Android App for Billing
+            </h3>
+            <p class="date-interval">
+              <time datetime="2023-04">2022</time>
+            </p>
+            <p class="desc">Tech Stack: Java, Android Studio, SQLite Database | Individual Project <br/>
+This app will take inputs of customer details and store it on the database. After saving customer details, One can generate the bill and save the Bill in to local storage (Mobile phone) in PDF format so that it becomes effortless in sharing the bill and details to customer.</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>Supermarket management system</h3>
+            <p class="date-interval">
+              <time datetime="2018-05">2022</time>
+            </p>
+            <p class="desc">Tech Stack: Python, PHPMyadmin, MySQL | Individual Project <br/>
+I have used Tkinter, a well-known Python Library for GUI, PhpMyAdmin for Database and various Data Structures of Python such as Lists, Dictionaries etc. User will be able to select the Products and get the bill.</p>
+          </li>
+          <li class="timeline-item ptf-card">
+            <h3>Crime Data Analysis and Prediction </h3>
+            <p class="date-interval">
+              <time datetime="2016-05">2021</time>
+            </p>
+            <p class="desc">Tech Stack: Python, Google Colab | Team size - 4<br/>
+Using the datasets provided by NCRB, We were able to build a predictive ML model using Gradient Boost Regressor algorithm which could predict the future crime rates. We were able to achieve 98.92% accuracy.My role in this project was Team lead and I built the predictive model.</p>
+          </li>
+		  
+        </ul>
+	<hr style='color:#BDC3C7 ;'>
+	
+	<h2 id='skills' class="educationsec">Skills</h2><center>
+	<table width='55%' style='text-align:center;align-items:center;'>
+	<tr bgcolor='#101010' style='color:white;font-size:20px'>
+		<th border='1px'>LANGUAGES</th>
+		<th border='1px'>TOOLS & LIBRARIES</th>
+		<th border='1px'>SOFTSKILLS</th>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/py.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Python</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/android.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Android Studio</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/ps.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Problem Solving</center></div></div></td>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/cpp.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>C++</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/pandas.png' class='logo' width='120px' height='120px' style='padding:10px;border-radius:25px;'/></center><br/><div class="square3"><center>Pandas</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/com.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Communication</center></div></div></td>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/java.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Java</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/numpy.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Numpy</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/vol.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Volunteering</center></div></div></td>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/html.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>HTML</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/mat.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Matplotlib</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/team.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Team work</center></div></div></td>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/css.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>CSS</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/sk.png' class='logo' width='120px' height='120px' style='padding:10px;border-radius:25px;'/></center><br/><div class="square3"><center>Scikit-Learn</center></div></div></td>
+		<td></td>
+	</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/sql.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>MySQL</center></div></div></td>
+		<td><div class="square4"><center><img src='icons/latex.png' class='logo' width='120px' height='120px' style='padding:10px;'/></center><br/><div class="square3"><center>Overleaf</center></div></div></td>
+		<td></td>
+		</tr>
+	
+	<tr>
+		<td><div class="square4"><center><img src='icons/js.png' class='logo' width='120px' height='120px' style='padding:10px;border-radius:25px;'/></center><br/><div class="square3"><center>Javascript</center></div></div></td>
+		<td></td>
+		<td></td>
+		</tr>
+	</table></center>
+		   
+	<hr style='color:#BDC3C7 ;'>
+	<h2 id='cert' class="educationsec">Certificates</h2>
+	<center><ul id='certp'>
+	<li class='certs'><p>1. <span style='color:#00FFD1'>Programming for Everybody (Getting Started with Python) </span><span style='color:#FFCD00'>| Coursera |</span> </p><div class="square5"><a href='https://coursera.org/share/ad9ec8e232d9806a7d5a5e1eb92cd46b'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>2.<span style='color:#00FFD1'> Python Data Structures </span><span style='color:#FFCD00'>| Coursera|</span> </p><div class="square5"><a href='https://coursera.org/share/235a8a339e0fd2c8563b22ee135de95e'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>3. <span style='color:#00FFD1'>Python for Data Science, AI & Development </span><span style='color:#FFCD00'>| IBM |</span> </p><div class="square5"><a href='https://coursera.org/share/dae89da1654ac29361729215316e36a9'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>4. <span style='color:#00FFD1'>Data Analysis with Python </span><span style='color:#FFCD00'>| IBM |</span> </p><div class="square5"><a href='https://coursera.org/share/35783b4243e356e5f3cd87bcfb5affd8'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>5. <span style='color:#00FFD1'>Google Data Analytics Professional Certificate </span><span style='color:#FFCD00'>| Google |</span> </p><div class="square5"><a href='https://coursera.org/share/21ecb95acb74a454315c74dc8727927c'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>6. <span style='color:#00FFD1'>Data Science Math Skills </span><span style='color:#FFCD00'>| Duke University |</span> </p><div class="square5"><a href='https://coursera.org/share/86b6dbfc2830d6eb50e2a91a8d7cde3a'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>7. <span style='color:#00FFD1'>Introduction to TensorFlow for AI, ML, and Deep Learning </span><span style='color:#FFCD00'>| Deeplearning.ai |</span> </p><div class="square5"><a href='https://coursera.org/share/f62108ca629352380eeb4531b10ab103'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>8.  <span style='color:#00FFD1'>Neural Networks and Deep Learning </span><span style='color:#FFCD00'>| Deeplearning.ai |</span> </p><div class="square5"><a href='https://coursera.org/share/bc79862a263087488b3e2ec81f1aac55'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>9.<span style='color:#00FFD1'> Interfacing with the Arduino </span><span style='color:#FFCD00'>| University of California|</span> </p><div class="square5"><a href='https://coursera.org/share/39866523643fa5bfb42d89db8c9ddddc'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>10. <span style='color:#00FFD1'>The Raspberry Pi Platform and Python Programming for the Raspberry Pi </span><span style='color:#FFCD00'>| University of California |</span> </p><div class="square5"><a href='https://coursera.org/share/4d4e74a08ed88c3e8d24600077e8ee52'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>11. <span style='color:#00FFD1'>The Arduino Platform and C Programming</span><span style='color:#FFCD00'>| University of California |</span> </p><div class="square5"><a href='https://coursera.org/share/2e704634b65bc87a6bdfcdd6d94182a8'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>12. <span style='color:#00FFD1'>Exploratory Data Analysis with MATLAB </span><span style='color:#FFCD00'>| MathWorks |</span> </p><div class="square5"><a href='https://coursera.org/share/9891a0b9d2cbcc789ec238628f6251d5'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>13. <span style='color:#00FFD1'>Data Processing and Feature Engineering with MATLAB </span><span style='color:#FFCD00'>| MathWorks |</span> </p><div class="square5"><a href='https://coursera.org/share/55d3b1e2f7c909b42e4386a3eb01a650'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>14. <span style='color:#00FFD1'>Agile Software Development </span><span style='color:#FFCD00'>| University of Minnesota |</span> </p><div class="square5"><a href='https://coursera.org/share/4b6be7625a2c306a954beb4e7162f3ac'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	
+	<li class='certs'><p>15. <span style='color:#49FF00'>Data Analytics Virtual Experience </span><span style='color:#FFCD00'>| Accenture |</span> </p><div class="square5"><a href='https://insidesherpa.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture_DEHu8MLdsumB7HAgu_1638544463033_completion_certificate.pdf'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>16.  <span style='color:#49FF00'>Java Basic [Skill Assessment] </span><span style='color:#FFCD00'>| Hackerrank |</span> </p><div class="square5"><a href='https://www.hackerrank.com/certificates/b94f7a47a822'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>17.  <span style='color:#49FF00'>Python Basic [Skill Assessment] </span><span style='color:#FFCD00'>| Hackerrank |</span> </p><div class="square5"><a href='https://www.hackerrank.com/certificates/ee6a0afd63a9'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>18.  <span style='color:#49FF00'>SQL Basic [Skill Assessment] </span><span style='color:#FFCD00'>| Hackerrank |</span> </p><div class="square5"><a href='https://www.hackerrank.com/certificates/72fa10b30aa6'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>19.  <span style='color:#49FF00'>SQL Intermediate [Skill Assessment] </span><span style='color:#FFCD00'>| Hackerrank |</span> </p><div class="square5"><a href='https://www.hackerrank.com/certificates/c84c10c71715'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>20.  <span style='color:#49FF00'>Business Analyst </span><span style='color:#FFCD00'>| Aspiring Minds |</span> </p><div class="square5"><a href='https://www.myamcat.com/certificate/29863437/business-analyst/94'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>21.  <span style='color:#49FF00'>Data Processing Specialist </span><span style='color:#FFCD00'>| Aspiring Minds |</span> </p><div class="square5"><a href='https://www.myamcat.com/certificate/29863437/data-processing-specialist/211'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>22.  <span style='color:#49FF00'>Software Development Trainee </span><span style='color:#FFCD00'>| Aspiring Minds |</span> </p><div class="square5"><a href='https://www.myamcat.com/certificate/29863437/software-development-trainee/166'>View Certificate</a></div></li>
+	<hr style='color:#BDC3C7 ;'>
+	<li class='certs'><p>23.  <span style='color:#FFCD00'>Workshop/Webinar/Volunteering and Skill assessment Certificates </span> </p><div class="square5"><a href='https://drive.google.com/drive/folders/12dygyvAHBFqGVWPpByAlqICNlL-tqAJp?usp=drive_link'>View Certificates</a></div></li>
+	
+	</ul></center>
+	
+	<hr style='color:#BDC3C7 ;'>
+	
+	<h2 id='skills' class="educationsec">Achievements</h2>
+	<ul class="timeline-items">
+          <li class="timeline-item ptf-card">
+            <h3>
+             Finalist of Smart India Hackathon 2022
+            </h3>
+            <p class="date-interval">
+              <time datetime="2023-04">2022</time>
+            </p>
+            <p>I worked with a team of 6 members in this Hackathon organized by Govt of
+India. We developed a solution forthe problem of Digital Access Code allocation for
+all geo-locations in India. My role was to look afterthe deployment of database and to develop front-end
+for Android Application</p></li>
+
+          <li class="timeline-item ptf-card">
+            <h3>Authored few blogs which has been published on the Medium website. </h3>
+            <p class="date-interval">
+              <time datetime="2018-05">2023</time>
+            </p>
+            <p>I have authored insightful blogs on fundamental topics like Linear Regression and Image Processing, which have been featured on the renowned platform Medium. These articles delve into the intricacies of these subjects and demonstrate my expertise in the field.</p></li>
+          <li class="timeline-item ptf-card">
+            <h3>Secured First Class in State level Carnatic Music exam conducted by KSEEB</h3>
+            <p class="date-interval">
+              <time datetime="2016-05">2013</time>
+            </p>
+            <p>Achieved an outstanding accomplishment in Carnatic Music by securing First Class in the State-level examination conducted by KSEEB, with a remarkable score of 340 out of 400.</p></li>
+		  
+        </ul>
+
+	<hr style='color:#BDC3C7 ;'>
+	
+	<h2 id='skills' class="educationsec">Volunteering</h2>
+	<ul class="timeline-items">
+          <li class="timeline-item ptf-card">
+            <h3>
+             Student Co-ordinator of Brainzee 2023
+            </h3>
+            <p class="date-interval">
+              <time datetime="2023-04">2023</time>
+            </p>
+            <p>As the Student Coordinator of Brainzee 2023, a captivating event held on May 25th and 26th as part of Sathgamaya 2023, I took charge of crafting thought-provoking questions and diligently assessed participating teams, assigning grades for each round. My role was to prepare Questions for Round 1 and Round 2, and ensure the fairness in grading the teams .</p></li>
+
+          <li class="timeline-item ptf-card">
+            <h3>Member of Question setting Committee of event Codathon 2023 hosted by Amrita Coding club</h3>
+            <p class="date-interval">
+              <time datetime="2018-05">2023</time>
+            </p>
+            <p>As a valued member of the Question Setting Committee, I played an integral role in formulating thought-provoking questions for the highly successful Codeathon held on May 11th, 2023. It was a privilege to contribute to the event's intellectual challenge and showcase my expertise in crafting engaging inquiries.</p></li>
+			
+          <li class="timeline-item ptf-card">
+            <h3>Member of Amrita Coding Club.</h3>
+            <p class="date-interval">
+              <time datetime="2016-05">2023</time>
+            </p>
+            <p>I am an enthusiastic member of AMC^2 (Amrita Coding Club), actively engaging in various coding events organized by the club. Through my participation, I consistently showcase my passion for coding and contribute to the vibrant coding community at Amrita. Joining forces with like-minded individuals, we explore and expand our programming skills, making significant strides in our journey as aspiring developers.</p></li>
+			
+			<li class="timeline-item ptf-card">
+            <h3>Volunteered for Crowd Controlling in Mysore Startup Pavillion-2022</h3>
+            <p class="date-interval">
+              <time datetime="2018-05">2022</time>
+            </p>
+            <p>I had the opportunity to contribute as a crowd controller at the Mysore Startup Pavilion in 2022. This experience provided me with invaluable exposure to a diverse range of startups. It was a rewarding opportunity to witness the innovation and entrepreneurial spirit firsthand.</p></li>
+			
+		  
+        </ul>
+	<hr style='color:#BDC3C7 ;'>
+	
+	<h2 id='contact' class="educationsec">Contact Me</h2>
+	<form method="POST"
+              action=
+    "mailto: rakshithsn2001@gmail.com"
+              enctype="multipart/form-data">
+
+<div class='grid'>
+<div class='square6'>
+<center><h3 style='padding:5px;'>Contact Details & Quick links</h3></center>
+<center><ul id='certp'>
+	<li class='certs'><p>Linkedin</p><div class="square5"><a href='https://www.linkedin.com/in/rakshith-s-nadiger/'><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Github</p><div class="square5"><a href='https://github.com/Rakshith102001'><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Medium</p><div class="square5"><a href='https://medium.com/@rakshithsn2001'><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Hackerrank</p><div class="square5"><a href='https://www.hackerrank.com/Rakshithsn2001?hr_r=1'><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Leetcode</p><div class="square5"><a href='https://leetcode.com/rakshithsn2001/'><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Instagram</p><div class="square5"><a href='https://instagram.com/_rakshith.s.n?igshid=NTc4MTIwNjQ2YQ=='><span style='color:#00FFD1;position:relative;left:-17%;'>Open Profile</span></a></div></li>
+	<li class='certs'><p>Certificates</p><div class="square5"><a href='https://drive.google.com/drive/folders/12dygyvAHBFqGVWPpByAlqICNlL-tqAJp?usp=drive_link'><span style='color:#00FFD1;position:relative;left:-17%;'>Open folder</span></a></div></li>
+	
+	
+	</ul></center>
+
+</div>
+<div class='square6'>
+<center><h4>Send your E-Mail</h4></center>
+<label for="name" style='justify-content: center;display: flex;color:'>Your Email-id:</label><br>
+<input type="text" id="name" name="name" style='justify-content: center;display: flex;margin-left: 100px;padding: 25px;'/><br>
+
+
+<label for="ContactCommentt" style='justify-content: center;display: flex;'>Message:</label><br>
+<textarea id=”ContactCommentt” rows=”300″ cols=”300″ style='justify-content: center;display: flex;margin-left: 100px;padding: 30px;'></textarea><br/>
+<input type="submit" value="Send" style='justify-content: center;display: flex;margin-left: 170px;padding: 10px;'/>
+</div>
+</form>
+</div>
+	<hr style='color:#BDC3C7 ;'>
+	
+	
+	<p class="cpyright"> &copy Made with &#10084 by - Rakshith S Nadiger </p>
+	</body>
+</html>

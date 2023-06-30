@@ -1,0 +1,154 @@
+body{
+	margin-left:25px;
+	background-image: linear-gradient(to bottom right, #145A32   , #52BE80);
+}
+
+h1{
+	font-family:Tahoma; 
+	font-size:70px;
+	text-align:center;
+	color:#EB984E;
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+.txt:first-line{
+	font-size:20px;
+	color:black;
+	text-align:center;
+	font-family:Georgia;
+	font-style:normal;
+}
+
+.txt{
+	font-size:15px;
+	color:black;
+	text-align:center;
+	font-family:Tahoma;
+	font-style:italic;
+}
+
+p{
+	font-family:Tahoma; 
+	font-size:10px;
+	text-align:center;
+	color:white;
+}
+
+
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(50px,1fr));
+	padding-bottom:2rem;
+}
+
+.imgwrapper{
+	position:relative;
+
+	border-radius: 10px;
+	width:95%;
+	align-items:center;
+	height:95%;
+}
+
+.imgwrapper1{
+	position:relative;
+
+	border-radius: 10px;
+	width:95%;
+	align-items:center;
+	height:95%;
+}
+
+.imgwrapper4{
+	position:relative;
+	border-radius: 10px;
+	width:95%;
+	align-items:center;
+	height:95%;
+}
+
+.imgwrapper > img{
+	display: block;
+	width:100%;
+	height:100%
+	aspect-ratio:16/9;
+	border-radius: 10px;
+	object-fit:cover;
+	position:relative;
+	z-index:-1;
+}
+
+.imgwrapper1 > img{
+	display: block;
+	width:100%;
+	height:100%
+	aspect-ratio:3/2;
+	border-radius: 10px;
+	object-fit:cover;
+	position:relative;
+	z-index:-1;
+}
+
+.imgwrapper4 > img{
+	display: block;
+	width:100%;
+	height:100%
+	aspect-ratio:16/9;
+	border-radius: 10px;
+	object-fit:cover;
+	position:relative;
+	z-index:-1;
+}
+body{
+	padding-bottom:5rem;
+}
+.imgwrapper > img{
+	transition:500ms ease-in-out;
+}
+.imgwrapper1 > img{
+	transition:500ms ease-in-out;
+}
+.imgwrapper4 > img{
+	transition:500ms ease-in-out;
+}
+
+.imgwrapper:hover > img{
+	transform:translate(0px,0px) scale(2.1);
+	aspect-ratio:3/2;
+	border: 3px solid black;
+	border-radius: 10px;
+	position:absolute;
+	z-index:1;
+	width:95%;
+	height:95%;
+}
+
+.imgwrapper1:hover > img{
+	transform:translate(175px,0px) scale(2.1);
+	align-items:center;
+	aspect-ratio:3/2;
+	position:absolute;
+	border: 3px solid black;
+	border-radius: 10px;
+	width:95%;
+	height:95%;
+	z-index:1;
+}
+
+.imgwrapper4:hover > img{
+	transform:translate(-175px,0px) scale(2.1);
+	align-items:center;
+	position:absolute;
+	aspect-ratio:3/2;
+	border: 3px solid black;
+	border-radius: 10px;
+	width:95%;
+	height:95%;
+	z-index:1;
+}
+
+

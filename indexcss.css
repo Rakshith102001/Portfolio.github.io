@@ -14,13 +14,8 @@ body{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #00FFD1; 
+  background: #C8C6BE; 
   border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
 }
 
 .grid{
@@ -29,6 +24,58 @@ body{
 	position:relative;
 }
 
+
+.menu-btn {
+   background-color: black;
+   color: white;
+   padding: 2px;
+   font-size: 16px;
+   border: 1px solid #48B65C;
+}
+.dropdown-menu {
+   position: relative;
+   left:76%;
+   top:-10%;
+   display: inline-block;
+   z-index: 5;
+  
+}
+.menu-content {
+   display: none;
+   position: absolute;
+   min-width: 160px;
+   z-index: 5;
+}
+
+.links,.links-hidden{
+   display: inline-block;
+   color: rgb(255, 255, 255);
+   padding: 12px 16px;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: bold;
+    background-color:black;
+	height: 30px;
+  width: 110px;
+  z-index:-1;
+}
+.links-hidden{
+   display: block;
+}
+.links{
+   display: block;
+}
+.links-hidden:hover,.links:hover {
+	box-shadow: #48B65C  0 0 10px;
+	color: #BDC3C7;
+}
+.dropdown-menu:hover .menu-content {
+   display: block;
+}
+.dropdown-menu:hover .menu-btn {
+	box-shadow: #48B65C  0 0 10px;
+	color: #BDC3C7;
+}
 
 h1{
 	color:	#00FFD1;
@@ -54,7 +101,8 @@ h1{
 	font-family:Poppins,sans-serif;;
 	padding:8rem;
 	color:#C8C6BE;
-}	
+}
+
 
 .square {	
   height: 250px;
@@ -65,23 +113,11 @@ h1{
 }
 
 .square1 {	
-float:right;
-  height: 30px;
-  width: 140px;
-  background-color: #232323;
-  z-index:-1;
-  border-radius:2px solid #48B65C;
-  border-radius:5px;
+position:absolute;
+right:150px;
+top:27px;
+  z-index:1;
 }
-
-.square1 a{
-	text-align:justify;
-}
-
-.square1:hover {
-	box-shadow: #48B65C  0 0 10px;
-}
-
 .square2 {	
 float:left;
   height: 40px;
@@ -360,7 +396,6 @@ top:0.4px;
 
 .square4 {	
 position:relative;
-left:20%;
 top:0.4px;
   height: 210px;
   width: 160px;
@@ -391,6 +426,7 @@ border-right: 2px solid #101010;
 tr,td,th{
 	border-left:2px solid #101010;
 	padding:.5rem;
+	align-items:center;
 }
 
 .certs{
@@ -404,6 +440,11 @@ tr,td,th{
     opacity: .8;
     transition: all .2s ease-in-out;
 }
+
+.certs p{
+		max-width:70%;
+		text-align:left;
+word-wrap:break-word;}
 
 
 .square5 {	
@@ -463,6 +504,7 @@ top:0.4px;
 	 display: flex;
 	 position:relative;
     align-items: left;
+	max-width:100px;
     padding-inline: 2rem;
     background-color: #1c1c21;
 	border-radius:15px;
